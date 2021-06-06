@@ -85,6 +85,9 @@
     text-transform: capitalize;
     font-weight: 600;
 }
+.service-full-content{
+    display: inline-flex;
+}
 .services-body{
     padding: 30px 0;
 }
@@ -110,6 +113,7 @@
 }
 .services-list p{
     padding-bottom: 5px;
+    padding-right: 12px;
 }
 .service-learn-more a{
     text-decoration: none;
@@ -222,15 +226,18 @@
     padding: 100px 0;
 }
 .client-image-alignment{
+    width: 40%;
+}
+.client-image-alignment{
     text-align: right;
 }
 .client-img{
     position: relative;
 }
-.dot-image{
+.dot-image {
     position: absolute;
     top: -30px;
-    left: 15px;
+    left: -30px;
     z-index: -1;
 }
 .dot-image img{
